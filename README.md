@@ -3,7 +3,7 @@
 ### 不是完整的项目，仅上传关键代码
 
 ### 问题5: 实现存证模块的功能，包括：创建存证；撤销存证。
-1. 代码（详见 poe/lib.rs）：
+1. 代码（详见 poe/src/lib.rs）：
 ```
  #[pallet::weight(0)]
         pub fn create_claim(
